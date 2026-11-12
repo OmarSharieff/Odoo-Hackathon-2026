@@ -1,4 +1,4 @@
-import { Component, lazy, Suspense, useEffect, useRef, useState } from 'react';
+import React, { Component, lazy, Suspense, useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 const Spline = lazy(() => import('@splinetool/react-spline'));
 class SceneBoundary extends Component {
